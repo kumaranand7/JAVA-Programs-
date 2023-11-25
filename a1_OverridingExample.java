@@ -8,7 +8,7 @@ class Shape {
     }
 }
 
-// Subclass that extends Shape
+// Subclass that extends Shape  //
 class Circle extends Shape {
     int a = 20;
 
@@ -42,5 +42,6 @@ public class a1_OverridingExample {
         obj3.draw();  // Calls the overridden draw method of the Circle class
         // obj3.calculateArea();  // This line is not possible because the reference type is Shape
         System.out.println(obj3.a);  // Accesses the 'a' variable of the Shape class
+        
     }
 }
