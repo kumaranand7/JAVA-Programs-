@@ -48,5 +48,5 @@ public class a1_inheritance_eg {
         obj3.sendSms();
         // obj3.cameraOn();   // This will result in a compilation error
         // obj3.musicPlayer(); // This will result in a compilation error
-    }
+    } 
 }
