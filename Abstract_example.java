@@ -1,4 +1,4 @@
-abstract class Bike {    //abstract class can have const, abst method and non abst method
+abstract class Bike {    //abstract class can have constant, abst method and non abst method
      int a;
     Bike() { // constructor
         System.out.println("Bike is running:");
