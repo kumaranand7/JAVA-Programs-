@@ -2,9 +2,9 @@ public class a1_StaticMethodEg {
 
     static void f1(){
 
-       System.out.println("Agar koi method static keyword ke sath declare kiya gaya hai, toh use class level par call kiya ja sakta hai, bina class ka object create kiye.");
+       System.out.println("Agarr koi method static keyword ke sath declare kiya gaya hai, toh use class level par call kiya ja sakta hai, bina class ka object create kiye.");
            }
-
+ 
            static void f2(){
 
         f1();
