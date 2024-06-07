@@ -10,8 +10,16 @@ public class InheritanceEg {
         System.out.println("----------");
 
         SmartPhone smartPhone = new SmartPhone();
-        smartPhone.canCall();           // Inherited from Phone
-        smartPhone.torch();             // Overridden method in SmartPhone
-        smartPhone.browseInternet();    // Method specific to SmartPhone
+        smartPhone.canCall();     
+        smartPhone.torch();           
+        smartPhone.browseInternet();   
+        System.out.println("dial from "+smartPhone.number);         
+
+        System.out.println("----------");
+
+        Phone obj= new SmartPhone();
+        obj.torch();  
+        System.out.println("dial from "+obj.number);         
+
     }
 }

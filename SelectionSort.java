@@ -1,3 +1,9 @@
+//Selection sort
+//time complexity
+// O ( n 2 )  in all cases 
+
+
+
 public class SelectionSort {
     public static void main(String[] args) {
 

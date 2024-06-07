@@ -1,3 +1,5 @@
+import Inheritance.Phone;
+
 class Phone {
     void dialNo() {
         System.out.println("Dial a no.");

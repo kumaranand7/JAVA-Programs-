@@ -2,6 +2,8 @@ package Inheritance;
 
 public class Phone {
 
+    int number=1;
+
     public void canCall() {
         System.out.println("I can call");
     }

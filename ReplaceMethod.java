@@ -1,4 +1,4 @@
-// remove all occurrences of a given character from the input string?
+// remove all occurrences of a given character from the input string
 
 
 public class ReplaceMethod {
