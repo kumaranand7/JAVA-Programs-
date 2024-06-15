@@ -23,6 +23,6 @@ public class PalindromTwoPointer {
         String str = "madaM";
 
         boolean isPalindrom = checkPalindrom(str);
-        System.out.println(isPalindrom); // Output: true
+        System.out.println(isPalindrom); 
     }
 }
