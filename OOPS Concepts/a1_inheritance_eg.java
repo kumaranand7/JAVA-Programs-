@@ -1,6 +1,6 @@
 import Inheritance.Phone;
 
-class Phone {
+class Phone1 {
     void dialNo() {
         System.out.println("Dial a no.");
     }
@@ -14,7 +14,7 @@ class Phone {
     }
 }
 
-class Smartphone extends Phone {
+class Smartphone extends Phone1 {
     void cameraOn() {
         System.out.println("Turn camera on");
     }
@@ -28,7 +28,7 @@ public class a1_inheritance_eg {
     public static void main(String[] args) {
         System.out.println("Phone can: ");
 
-        Phone obj1 = new Phone();
+        Phone1 obj1 = new Phone1();
         obj1.dialNo();
         obj1.flashLight();
         obj1.sendSms();
@@ -43,7 +43,7 @@ public class a1_inheritance_eg {
         obj2.musicPlayer();
 
         // Now, let's use polymorphism
-        Phone obj3 = new Smartphone(); // Using the reference type Phone to refer to a Smartphone object
+        Phone1 obj3 = new Smartphone(); // Using the reference type Phone to refer to a Smartphone object
 
         obj3.dialNo();
         obj3.flashLight();
