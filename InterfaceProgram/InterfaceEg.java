@@ -6,7 +6,7 @@ interface Swimmer{
 
 interface  Walker{
     void walk();
-}
+} 
 
 class  Dolphin implements Swimmer{
     public  void  swim(){
