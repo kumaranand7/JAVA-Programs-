@@ -11,7 +11,7 @@ public class CountChar {
         for(int i =0; i<str.length(); i++){
             if(str.charAt(i)==ch)
             c++;
-        }
+        } 
         System.out.println(c);
     }
     

@@ -3,7 +3,7 @@ public class ArmstrongNo {
         
         int n=153;
         int original=n;
-        int res=0;
+        int res=0; 
 
         while(n>0){
             int tmp=n%10;

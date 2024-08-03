@@ -8,7 +8,7 @@ public class AnagramStirng {
     public static boolean checkAnagram(String str1, String str2) {
 
         str1 = str1.toLowerCase();
-        str2 = str2.toLowerCase();
+        str2 = str2.toLowerCase(); 
 
         char ch1[] = str1.toCharArray();
         char ch2[] = str2.toCharArray();
