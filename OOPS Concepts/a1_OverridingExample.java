@@ -6,7 +6,7 @@ class Shape {
     void draw() {
         System.out.println("Drawing a shape");
     }
-}
+} 
 
 // Subclass that extends Shape  //
 class Circle extends Shape {
