@@ -6,7 +6,7 @@ public class SecondLargest {
         for (int i = 0; i < arr.length; i++) { 
             if (arr[i] > MAX_ELEMENT) {
                 MAX_ELEMENT = arr[i];
-            }
+            } 
         }
         return MAX_ELEMENT;
     }
